@@ -1,0 +1,34 @@
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#door1 {
+    margin-left: 33%;
+    margin-top: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#door2{
+    margin-left: auto;
+    margin-top: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#door0{
+    margin-right: 33%;
+    margin-top: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#door1:hover{
+    transform: scale(1.1);
+}
+
+#door2:hover{
+    transform: scale(1.1);
+}
+
+#door0:hover{
+    transform: scale(1.1);
+}

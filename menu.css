@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+h3{
+    text-align: center;
+    color: red;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: red;
+    color:black;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    height: 100px;
+    border-radius: 0 0 25px 25px;
+    padding-top: 20px;
+}
+main{
+    background-color: black;
+    height: 400px;
+    padding-top: 20px;
+    text-align: center;
+}
+header{
+    background-color: black;
+    border-radius: 25px 25px 0 0;
+    padding-bottom: 20px;
+}
+body{
+    background-color: rgb(102, 14, 14);
+    color: red; 
+}

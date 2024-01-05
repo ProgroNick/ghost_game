@@ -2,23 +2,35 @@ p {
     text-align: center;
     font-weight: bold;
 }
-
+div{
+    max-width: 100%;
+}
 #door1 {
     margin-left: 33%;
     margin-top: auto;
     transition: transform 0.3s ease-in-out;
+    width: 11%;
+    height: auto;
+    margin-right: 0%;
 }
 
 #door2{
-    margin-left: auto;
+    margin:auto;
     margin-top: auto;
     transition: transform 0.3s ease-in-out;
+    width: 11%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: auto;
 }
 
 #door0{
     margin-right: 33%;
     margin-top: auto;
     transition: transform 0.3s ease-in-out;
+    width: 11%;
+    height: auto;
+    margin-right: 0%;
 }
 
 #door1:hover{

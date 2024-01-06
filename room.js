@@ -69,7 +69,7 @@ function restart(){
 
 
 function goodDoor(){
-    if(score == 50){
+    if(score == 10){
         goodGame();
         return;
     }
